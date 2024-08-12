@@ -39,8 +39,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   
     //  🚨 Close the modal when the close button is clicked
-    closeModal.('', function () {
-      
+    closeModal.click('', function () {
+      closeModal.modal("hide");
     });
   });
   
