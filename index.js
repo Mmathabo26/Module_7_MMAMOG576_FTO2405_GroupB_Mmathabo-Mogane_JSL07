@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
   
       // 🚨 Generate certificate content dynamically
-      certificateContent. = `
+      certificateContent. = `getElementById
       <h3>${studentName}</h3>
     `;
     
