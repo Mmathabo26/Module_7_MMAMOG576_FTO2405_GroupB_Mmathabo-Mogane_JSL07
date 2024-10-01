@@ -25,10 +25,15 @@ document.addEventListener('DOMContentLoaded', function () {
       }
   
       // 🚨 Generate certificate content dynamically
-      certificateContent. = `getElementById
-      <h3>${studentName}</h3>
-    `;
-    
+    function generateCertificate(studentName, personalMessage, courseName) {  
+      const certificateContent = `
+        
+      `;
+
+      document.getElementById('studentName').innerHTML = student;
+      document.getElementById('courseName').innerText = course;
+      document.getElementById('personalMessage').innerText = message;
+    }
       //  Display the modal
       modal.style.display = 'block';
   
@@ -43,4 +48,5 @@ document.addEventListener('DOMContentLoaded', function () {
       closeModal.modal("hide");
     });
   });
+  
   
